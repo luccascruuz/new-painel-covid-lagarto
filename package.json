@@ -8,9 +8,11 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "latest",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "sass": "^1.33.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
