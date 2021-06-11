@@ -5,6 +5,7 @@ import DailyData from '../../server/models/DailyData';
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
     try {
+        console.log(req.headers);
         const dailyDatas = await DailyData.aggregate([
             {
                 $group: {
